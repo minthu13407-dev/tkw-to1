@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.avatar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.avatar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4facfe;
+}
+
+
+
+
+.form{
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}*/
+.form{
+    width: 350px;
+    background: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Avatar */
+.avatar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.avatar img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ccc;
+}
+.gioithieu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+    border-color: #4facfe;
+    box-shadow: 0 0 5px rgba(79,172,254,0.5);
+}
+
+button,
+input[type="reset"]{
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+	padding:  12px;
+}
+
+.button-group button,
+.button-group input[type="reset"]{
+	padding:  12px;
+    width: 50%;
+}
+
+
+button:hover{
+    background-color: #2196f3;
+}
+
+input[type="reset"]{
+    background-color: #f44336;
+    color: white;
+}
+
+input[type="reset"]:hover{
+    background-color: #d32f2f;
+}
